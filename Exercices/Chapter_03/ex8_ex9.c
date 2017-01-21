@@ -7,17 +7,17 @@ int main(void){
 	i = 365; j = 7;
 	next_multiple = i + j - i % j;
 	printf( "Next largest even multiple for the values i = %i and j = %i is %i\n",
-			i, j, next_multiple);
+		i, j, next_multiple);
 
 	i = 12258; j = 23;
 	next_multiple = i + j - i % j;
 	printf( "Next largest even multiple for the values i = %i and j = %i is %i\n",
-				i, j, next_multiple);
+		i, j, next_multiple);
 
 	i = 996; j = 4;
 	next_multiple = i + j - i % j;
 	printf( "Next largest even multiple for the values i = %i and j = %i is %i\n",
-				i, j, next_multiple);
+		i, j, next_multiple);
 
 
 	return 0;
