@@ -1,8 +1,8 @@
 //Find the next largest even multiple for the given values of i and j.
 #include <stdio.h>
 
-int main(void){
-	
+int main(void)
+{
 	int i, j, next_multiple;
 
 	i = 365; j = 7;
