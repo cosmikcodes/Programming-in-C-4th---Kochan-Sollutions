@@ -19,7 +19,6 @@ int main(void)
 	next_multiple = i + j - i % j;
 	printf ("Next largest even multiple for the values i = %i and j = %i is %i\n",
 		i, j, next_multiple);
-
-
+	
 	return 0;
 }
