@@ -13,7 +13,6 @@ int main (void)
 
     if ( remainder == 0 )
         printf ("\nThe number is even!\n");
-
     else
         printf ("\nThe number is odd!\n");
 
