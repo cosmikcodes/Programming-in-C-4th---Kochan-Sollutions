@@ -1,4 +1,4 @@
-//Calculate the absolute value of an integer
+//  Calculate the absolute value of an integer
 
 #include <stdio.h>
 
