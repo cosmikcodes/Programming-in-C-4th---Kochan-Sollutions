@@ -1,5 +1,5 @@
 /* Calculate the average of a set grades
-   and count the number of failing test grades */
+   and count the number of failing test grades  */
 
 #include <stdio.h>
 
