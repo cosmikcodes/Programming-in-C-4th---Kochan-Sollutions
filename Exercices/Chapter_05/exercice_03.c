@@ -1,4 +1,5 @@
-                                          
+//Program to divide 2 numbers
+
 #include <stdio.h>
 
 int main(void)                                                                                      
@@ -14,8 +15,8 @@ int main(void)
   else {                                                                                            
     printf("%.3f\n", value1 / value2);                                                              
   }                                                                                                 
-                                                                                                    
+                                                                                                        
   return 0;                                                                                         
 }
-
+  
   
