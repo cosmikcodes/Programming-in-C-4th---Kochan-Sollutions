@@ -20,7 +20,6 @@ int main(void)
 
      for (i = 2; i < numFibs; ++i) {
           Fibonacci[i] = Fibonacci[i-2] + Fibonacci[i-1];
-          
      }
 
      for (i = 0; i < numFibs; ++i) {
