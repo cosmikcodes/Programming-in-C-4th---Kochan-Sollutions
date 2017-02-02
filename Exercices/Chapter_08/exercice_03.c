@@ -67,7 +67,6 @@ void elapsedTime(void)
     // Variables.
     struct time firstTime, secondTime, elapsedTime;
 
-    // Calculate elapsed time and print.
     printf("Dont use 0 before numbers (like '09').\n");
     printf("It will be converted to octal, and may cause errors.\n");
     
@@ -77,6 +76,7 @@ void elapsedTime(void)
     printf("Enter the second time (hh:mm:ss): ");
     scanf("%i:%i:%i", &secondTime.hour, &secondTime.minutes, &secondTime.seconds);
   
+    // Calculate elapsed time and print.
     elapsedTime = calculateElapsedTime(firstTime, secondTime);
 
     printf("\nElapsed time: %.2i:%.2i:%.2i\n",
